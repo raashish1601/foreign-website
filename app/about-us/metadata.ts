@@ -1,5 +1,4 @@
-import Header from "@/components/Header";
-import { Metadata } from 'next';
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -8,15 +7,4 @@ export const metadata: Metadata = {
     title: 'About Us | Foreign Admits',
     description: 'Learn more about Foreign Admits and our mission to help students achieve their dreams of studying abroad.',
   },
-};
-
-export default function AboutUs() {
-  return (
-    <main className="min-h-screen">
-      <Header />
-      <div className="container mx-auto px-4 py-20">
-        <h1 className="text-4xl font-bold text-center">About Us</h1>
-      </div>
-    </main>
-  );
 }

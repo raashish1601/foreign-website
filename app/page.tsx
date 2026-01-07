@@ -6,18 +6,24 @@ import PoweredByTheBest from "@/components/PoweredByTheBest";
 import Testimonials from "@/components/Testimonials";
 import EndCTA from "@/components/EndCTA";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <WhoAreWe />
-      <HowDoWeHelp />
-      <PoweredByTheBest />
-      <Testimonials />
-      <EndCTA />
-      <Footer />
-    </main>
+    <>
+      <JsonLd />
+      <main className="min-h-screen">
+        <Header />
+        <Hero />
+        <WhoAreWe />
+        <HowDoWeHelp />
+        <PoweredByTheBest />
+        <Testimonials />
+        <EndCTA />
+        <Footer />
+      </main>
+    </>
+  );
+}
   );
 }
