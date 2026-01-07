@@ -98,25 +98,25 @@ export default function PoweredByTheBest() {
   const [activeTab, setActiveTab] = useState<'universities' | 'loanLenders' | 'vasVendors'>('universities');
   
   return (
-    <section className="relative py-20" id="our-partners">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative py-12 md:py-16 lg:py-20" id="our-partners">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-[48px] font-semibold leading-tight tracking-[-0.04em] text-text-primary mb-4" style={{ fontFamily: 'var(--font-inter)' }}>
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-semibold leading-tight tracking-[-0.04em] text-text-primary mb-3 md:mb-4" style={{ fontFamily: 'var(--font-inter)' }}>
             Powered by the <span className="text-primary">Best</span>
           </h2>
-          <p className="text-[20px] leading-[140%] tracking-[-0.04em] text-text-primary">
+          <p className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[140%] tracking-[-0.04em] text-text-primary px-4">
             From global campuses to top banking partners — our partners make magic happen.
           </p>
         </div>
 
         {/* Category Tabs */}
-        <div className="flex justify-center gap-8 mb-12">
+        <div className="flex justify-center gap-4 md:gap-6 lg:gap-8 mb-8 md:mb-12 overflow-x-auto px-4">
           {/* Universities Tab */}
-          <button onClick={() => setActiveTab('universities')} className="flex flex-col items-center group cursor-pointer">
-            <div className="flex flex-col items-center gap-3 mb-3">
+          <button onClick={() => setActiveTab('universities')} className="flex flex-col items-center group cursor-pointer flex-shrink-0">
+            <div className="flex flex-col items-center gap-2 md:gap-3 mb-2 md:mb-3">
               <div 
-                className="w-[60px] h-[60px] rounded-xl flex items-center justify-center transition-all"
+                className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-xl flex items-center justify-center transition-all"
                 style={activeTab === 'universities' ? {
                   background: 'linear-gradient(rgb(0, 141, 234) 0%, rgb(0, 125, 208) 100%)',
                   border: '1px solid rgb(0, 125, 208)',
@@ -131,7 +131,7 @@ export default function PoweredByTheBest() {
                   <use href="https://www.foreignadmits.com/#svg-653049465_1532" />
                 </svg>
               </div>
-              <p className="text-lg font-medium tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
+              <p className="text-[15px] md:text-lg font-medium tracking-[-0.04em] whitespace-nowrap" style={{ fontFamily: 'var(--font-inter)' }}>
                 Universities
               </p>
             </div>
@@ -139,10 +139,10 @@ export default function PoweredByTheBest() {
           </button>
 
           {/* Loan Lenders Tab */}
-          <button onClick={() => setActiveTab('loanLenders')} className="flex flex-col items-center group cursor-pointer">
-            <div className="flex flex-col items-center gap-3 mb-3">
+          <button onClick={() => setActiveTab('loanLenders')} className="flex flex-col items-center group cursor-pointer flex-shrink-0">
+            <div className="flex flex-col items-center gap-2 md:gap-3 mb-2 md:mb-3">
               <div 
-                className="w-[60px] h-[60px] rounded-xl flex items-center justify-center transition-all"
+                className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-xl flex items-center justify-center transition-all"
                 style={activeTab === 'loanLenders' ? {
                   background: 'linear-gradient(rgb(32, 201, 151) 0%, rgb(29, 180, 135) 100%)',
                   border: '1px solid rgb(29, 180, 135)',
@@ -157,7 +157,7 @@ export default function PoweredByTheBest() {
                   <path d="M 11.948 1.25 L 12.052 1.25 C 12.951 1.25 13.7 1.25 14.294 1.33 C 14.922 1.414 15.489 1.6 15.944 2.055 C 16.4 2.511 16.586 3.078 16.67 3.706 C 16.729 4.145 16.745 4.669 16.749 5.275 C 17.397 5.296 17.975 5.334 18.489 5.403 C 19.661 5.561 20.61 5.893 21.359 6.641 C 22.107 7.39 22.439 8.339 22.597 9.511 C 22.75 10.65 22.75 12.106 22.75 13.944 L 22.75 14.056 C 22.75 15.894 22.75 17.35 22.597 18.489 C 22.439 19.661 22.107 20.61 21.359 21.359 C 20.61 22.107 19.661 22.439 18.489 22.597 C 17.35 22.75 15.894 22.75 14.056 22.75 L 9.944 22.75 C 8.106 22.75 6.65 22.75 5.511 22.597 C 4.339 22.439 3.39 22.107 2.641 21.359 C 1.893 20.61 1.561 19.661 1.403 18.489 C 1.25 17.35 1.25 15.894 1.25 14.056 L 1.25 13.944 C 1.25 12.106 1.25 10.65 1.403 9.511 C 1.561 8.339 1.893 7.39 2.641 6.641 C 3.39 5.893 4.339 5.561 5.511 5.403 C 6.025 5.334 6.603 5.296 7.251 5.275 C 7.255 4.669 7.271 4.145 7.33 3.706 C 7.414 3.078 7.6 2.511 8.055 2.055 C 8.511 1.6 9.078 1.414 9.706 1.33 C 10.3 1.25 11.05 1.25 11.948 1.25 Z M 8.752 5.252 C 9.13 5.25 9.527 5.25 9.944 5.25 L 14.056 5.25 C 14.473 5.25 14.87 5.25 15.248 5.252 C 15.244 4.681 15.23 4.251 15.184 3.905 C 15.121 3.444 15.014 3.246 14.884 3.116 C 14.754 2.986 14.556 2.879 14.095 2.817 C 13.612 2.752 12.964 2.75 12 2.75 C 11.036 2.75 10.388 2.752 9.905 2.817 C 9.444 2.879 9.246 2.986 9.116 3.116 C 8.986 3.246 8.879 3.444 8.817 3.905 C 8.77 4.251 8.756 4.681 8.752 5.252 Z M 5.711 6.89 C 4.705 7.025 4.125 7.279 3.702 7.702 C 3.279 8.125 3.025 8.705 2.89 9.711 C 2.752 10.739 2.75 12.093 2.75 14 C 2.75 15.907 2.752 17.261 2.89 18.289 C 3.025 19.295 3.279 19.875 3.702 20.298 C 4.125 20.721 4.705 20.975 5.711 21.11 C 6.739 21.248 8.093 21.25 10 21.25 L 14 21.25 C 15.907 21.25 17.262 21.248 18.289 21.11 C 19.295 20.975 19.875 20.721 20.298 20.298 C 20.721 19.875 20.975 19.295 21.11 18.289 C 21.248 17.261 21.25 15.907 21.25 14 C 21.25 12.093 21.248 10.739 21.11 9.711 C 20.975 8.705 20.721 8.125 20.298 7.702 C 19.875 7.279 19.295 7.025 18.289 6.89 C 17.262 6.752 15.907 6.75 14 6.75 L 10 6.75 C 8.093 6.75 6.739 6.752 5.711 6.89 Z M 12 9.25 C 12.414 9.25 12.75 9.586 12.75 10 L 12.75 10.01 C 13.839 10.285 14.75 11.143 14.75 12.333 C 14.75 12.747 14.414 13.083 14 13.083 C 13.586 13.083 13.25 12.747 13.25 12.333 C 13.25 11.949 12.824 11.417 12 11.417 C 11.176 11.417 10.75 11.949 10.75 12.333 C 10.75 12.717 11.176 13.25 12 13.25 C 13.385 13.25 14.75 14.21 14.75 15.667 C 14.75 16.857 13.839 17.715 12.75 17.99 L 12.75 18 C 12.75 18.414 12.414 18.75 12 18.75 C 11.586 18.75 11.25 18.414 11.25 18 L 11.25 17.99 C 10.161 17.715 9.25 16.857 9.25 15.667 C 9.25 15.252 9.586 14.917 10 14.917 C 10.414 14.917 10.75 15.252 10.75 15.667 C 10.75 16.051 11.176 16.583 12 16.583 C 12.824 16.583 13.25 16.051 13.25 15.667 C 13.25 15.283 12.824 14.75 12 14.75 C 10.615 14.75 9.25 13.79 9.25 12.333 C 9.25 11.143 10.161 10.285 11.25 10.01 L 11.25 10 C 11.25 9.586 11.586 9.25 12 9.25 Z" />
                 </svg>
               </div>
-              <p className="text-lg font-medium tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
+              <p className="text-[15px] md:text-lg font-medium tracking-[-0.04em] whitespace-nowrap" style={{ fontFamily: 'var(--font-inter)' }}>
                 Loan Lenders
               </p>
             </div>
@@ -165,10 +165,10 @@ export default function PoweredByTheBest() {
           </button>
 
           {/* VAS Vendors Tab */}
-          <button onClick={() => setActiveTab('vasVendors')} className="flex flex-col items-center group cursor-pointer">
-            <div className="flex flex-col items-center gap-3 mb-3">
+          <button onClick={() => setActiveTab('vasVendors')} className="flex flex-col items-center group cursor-pointer flex-shrink-0">
+            <div className="flex flex-col items-center gap-2 md:gap-3 mb-2 md:mb-3">
               <div 
-                className="w-[60px] h-[60px] rounded-xl flex items-center justify-center transition-all"
+                className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] rounded-xl flex items-center justify-center transition-all"
                 style={activeTab === 'vasVendors' ? {
                   background: 'linear-gradient(rgb(253, 126, 20) 0%, rgb(223, 110, 16) 100%)',
                   border: '1px solid rgb(223, 110, 16)',
@@ -183,7 +183,7 @@ export default function PoweredByTheBest() {
                   <use href="https://www.foreignadmits.com/#svg-886765749_265" />
                 </svg>
               </div>
-              <p className="text-lg font-medium tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
+              <p className="text-[15px] md:text-lg font-medium tracking-[-0.04em] whitespace-nowrap" style={{ fontFamily: 'var(--font-inter)' }}>
                 VAS Vendors
               </p>
             </div>
@@ -193,7 +193,7 @@ export default function PoweredByTheBest() {
 
         {/* Logo Carousel Container */}
         <div 
-          className="relative border-t pt-12"
+          className="relative border-t pt-8 md:pt-12"
           style={{
             borderColor: 'rgb(230, 230, 230)',
             background: 'linear-gradient(rgb(239, 248, 255) 0%, rgb(255, 255, 255) 100%)',
@@ -215,7 +215,7 @@ export default function PoweredByTheBest() {
           </div>
 
           {/* Logo Carousels */}
-          <div className="relative space-y-8 pb-8">
+          <div className="relative space-y-6 md:space-y-8 pb-6 md:pb-8">
             {activeTab === 'universities' && (
               <>
                 <LogoCarousel logos={universities} />
@@ -242,7 +242,7 @@ export default function PoweredByTheBest() {
           {/* Bottom Text */}
           <div className="text-center relative">
             <p 
-              className="text-[20px] font-medium tracking-[-1px] text-primary"
+              className="text-[16px] md:text-[18px] lg:text-[20px] font-medium tracking-[-1px] text-primary"
               style={{ fontFamily: 'var(--font-inter)' }}
             >
               &amp; 200+ University Partnerships

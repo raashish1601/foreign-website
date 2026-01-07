@@ -4,27 +4,27 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer 
-      className="relative py-16"
+      className="relative py-12 md:py-16"
       id="footer"
       style={{ 
         background: 'linear-gradient(rgb(47, 69, 92) 0%, rgb(23, 38, 54) 100%)' 
       }}
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Main Footer Content */}
-        <div className="mb-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="mb-8 md:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 md:gap-12">
             {/* Logo and CTA Column */}
             <div className="lg:col-span-3">
-              <div className="mb-8">
+              <div className="mb-6 md:mb-8">
                 {/* Logo */}
                 <Link href="/" className="inline-block mb-4">
-                  <svg width="230" height="45" viewBox="0 0 230 45" className="w-[155px] h-auto">
+                  <svg width="230" height="45" viewBox="0 0 230 45" className="w-[130px] md:w-[155px] h-auto">
                     <use href="https://www.foreignadmits.com/#svg-1442010744_12575" />
                   </svg>
                 </Link>
                 <p 
-                  className="text-[rgb(225,225,225)] font-medium tracking-[-0.04em] leading-[1.4em]"
+                  className="text-[14px] md:text-base text-[rgb(225,225,225)] font-medium tracking-[-0.04em] leading-[1.4em]"
                   style={{ fontFamily: 'var(--font-inter)' }}
                 >
                   One-Stop-Shop for your study abroad needs
@@ -34,33 +34,33 @@ export default function Footer() {
               {/* Partner Button */}
               <Link
                 href="/partner-with-us"
-                className="inline-flex items-center gap-3 px-6 py-3 bg-primary rounded-lg border border-[rgb(64,163,230)] hover:shadow-lg transition-all"
+                className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-6 py-2.5 md:py-3 bg-primary rounded-lg border border-[rgb(64,163,230)] hover:shadow-lg transition-all"
                 style={{
                   boxShadow: 'rgb(0, 141, 234) 0px 0px 0px 1px, rgba(0, 141, 234, 0.48) 0px 1px 2px 0px, rgba(0, 141, 234, 0.15) 0px 0px 0px 5px'
                 }}
               >
                 <span 
-                  className="text-[14px] font-semibold tracking-[-0.04em] leading-[120%] text-white"
+                  className="text-[13px] md:text-[14px] font-semibold tracking-[-0.04em] leading-[120%] text-white"
                   style={{ fontFamily: 'var(--font-inter)' }}
                 >
                   Partner With Us
                 </span>
-                <svg width="15" height="12" viewBox="0 0 15 12" fill="none" className="text-white">
+                <svg width="15" height="12" viewBox="0 0 15 12" fill="none" className="text-white w-[13px] md:w-[15px]">
                   <use href="https://www.foreignadmits.com/#svg-284603687_298" />
                 </svg>
               </Link>
 
               {/* Member Badges */}
-              <div className="mt-8">
+              <div className="mt-6 md:mt-8">
                 <p 
-                  className="text-[rgb(225,225,225)] font-semibold tracking-[-0.04em] mb-4"
+                  className="text-[14px] md:text-base text-[rgb(225,225,225)] font-semibold tracking-[-0.04em] mb-3 md:mb-4"
                   style={{ fontFamily: 'var(--font-inter)' }}
                 >
                   Member of
                 </p>
-                <div className="flex gap-4">
+                <div className="flex gap-3 md:gap-4">
                   <div 
-                    className="relative w-[132px] h-[76px] rounded-[5.48px] border-[0.62px] border-black"
+                    className="relative w-[110px] h-[63px] md:w-[132px] md:h-[76px] rounded-[5.48px] border-[0.62px] border-black"
                     style={{ boxShadow: 'rgba(0, 0, 0, 0.08) -4.19px 8.39px 12.512px 0px' }}
                   >
                     <Image
@@ -79,7 +79,7 @@ export default function Footer() {
                     />
                   </div>
                   <div 
-                    className="relative w-[132px] h-[76px] rounded-[5.58px] border-[0.62px] border-black"
+                    className="relative w-[110px] h-[63px] md:w-[132px] md:h-[76px] rounded-[5.58px] border-[0.62px] border-black"
                     style={{ boxShadow: 'rgba(0, 0, 0, 0.08) -4.27px 8.54px 12.7434px 0px' }}
                   >
                     <Image
@@ -104,16 +104,16 @@ export default function Footer() {
             {/* By Destination Column */}
             <div className="lg:col-span-2">
               <h3 
-                className="text-white font-semibold tracking-[-0.04em] mb-6"
+                className="text-white text-[15px] md:text-base font-semibold tracking-[-0.04em] mb-4 md:mb-6"
                 style={{ fontFamily: 'var(--font-inter)' }}
               >
                 By Destination
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2 md:space-y-3">
                 {['USA', 'UK', 'Australia', 'Newzealand', 'Germany', 'Canada', 'Ireland', 'France'].map((dest) => (
                   <li key={dest}>
                     <span 
-                      className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
+                      className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
                       style={{ fontFamily: 'var(--font-inter)' }}
                     >
                       {dest}
@@ -126,18 +126,18 @@ export default function Footer() {
             {/* Tools Column */}
             <div className="lg:col-span-2">
               <h3 
-                className="text-white font-semibold tracking-[-0.04em] mb-6"
+                className="text-white text-[15px] md:text-base font-semibold tracking-[-0.04em] mb-4 md:mb-6"
                 style={{ fontFamily: 'var(--font-inter)' }}
               >
                 Tools
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2 md:space-y-3">
                 <li>
                   <a 
                     href="https://loan.foreignadmits.com/" 
                     target="_blank" 
                     rel="noopener"
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     Education Loan Tool
@@ -148,7 +148,7 @@ export default function Footer() {
                     href="https://www.mydreamuniversity.in/MFL4D0WF" 
                     target="_blank" 
                     rel="noopener"
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     Course Finder
@@ -159,7 +159,7 @@ export default function Footer() {
                     href="https://prod-loanmonk.foreignadmits.app/auth" 
                     target="_blank" 
                     rel="noopener"
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     LoanMonk
@@ -170,7 +170,7 @@ export default function Footer() {
                     href="https://app.foreignadmits.com/auth/login" 
                     target="_blank" 
                     rel="noopener"
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     Study Abroad CRM
@@ -182,12 +182,12 @@ export default function Footer() {
             {/* Services Column */}
             <div className="lg:col-span-3">
               <h3 
-                className="text-white font-semibold tracking-[-0.04em] mb-6"
+                className="text-white text-[15px] md:text-base font-semibold tracking-[-0.04em] mb-4 md:mb-6"
                 style={{ fontFamily: 'var(--font-inter)' }}
               >
                 Services
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2 md:space-y-3">
                 {[
                   { name: 'Admissions', href: '/university-admissions' },
                   { name: 'Test Prep', href: '/test-prep' },
@@ -206,7 +206,7 @@ export default function Footer() {
                   <li key={service.name}>
                     <Link 
                       href={service.href}
-                      className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                      className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                       style={{ fontFamily: 'var(--font-inter)' }}
                     >
                       {service.name}
@@ -219,16 +219,16 @@ export default function Footer() {
             {/* Company Column */}
             <div className="lg:col-span-2">
               <h3 
-                className="text-white font-semibold tracking-[-0.04em] mb-6"
+                className="text-white text-[15px] md:text-base font-semibold tracking-[-0.04em] mb-4 md:mb-6"
                 style={{ fontFamily: 'var(--font-inter)' }}
               >
                 Company
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2 md:space-y-3">
                 <li>
                   <Link 
                     href="/about-us"
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80 hover:opacity-100 transition-opacity"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     About Us
@@ -236,7 +236,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <span 
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     Careers
@@ -244,7 +244,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <span 
-                    className="text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
+                    className="text-[13px] md:text-[14px] font-medium tracking-[-0.04em] text-white opacity-80"
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     Blogs
@@ -256,19 +256,19 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-600 mb-8"></div>
+        <div className="border-t border-gray-600 mb-6 md:mb-8"></div>
 
         {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
           {/* Copyright and Links */}
-          <div className="flex flex-wrap items-center gap-3 text-white opacity-80">
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-3 text-white opacity-80 text-[12px] md:text-[14px]">
             <span 
               className="font-medium tracking-[-0.04em]"
               style={{ fontFamily: 'var(--font-inter)' }}
             >
               © 2025 Edument Consultancy Pvt. Ltd.
             </span>
-            <span>•</span>
+            <span className="hidden sm:inline">•</span>
             <Link 
               href="/legal/terms-and-condition"
               className="font-medium tracking-[-0.04em] hover:opacity-100 transition-opacity"
@@ -276,7 +276,7 @@ export default function Footer() {
             >
               Terms & Condition
             </Link>
-            <span>•</span>
+            <span className="hidden sm:inline">•</span>
             <Link 
               href="/legal/privacy-policy"
               className="font-medium tracking-[-0.04em] hover:opacity-100 transition-opacity"
@@ -284,7 +284,7 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
-            <span>•</span>
+            <span className="hidden sm:inline">•</span>
             <span 
               className="font-medium tracking-[-0.04em]"
               style={{ fontFamily: 'var(--font-inter)' }}
@@ -294,7 +294,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex gap-4">
+          <div className="flex gap-3 md:gap-4">
             <a 
               href="https://www.linkedin.com/company/foreignadmits/" 
               target="_blank" 

@@ -110,18 +110,18 @@ const sections = [
 
 export default function HowDoWeHelp() {
   return (
-    <section id="how-do-we-help" className="relative bg-white py-20 px-6">
+    <section id="how-do-we-help" className="relative bg-white py-12 md:py-16 lg:py-20 px-4 sm:px-6">
       <div className="max-w-[1200px] mx-auto">
         {/* Section Header */}
-        <div className="flex flex-col items-center mb-16">
+        <div className="flex flex-col items-center mb-10 md:mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-6"
+            className="mb-4 md:mb-6"
           >
-            <p className="text-[14px] font-semibold font-inter tracking-[0.02em] text-center text-primary uppercase">
+            <p className="text-[12px] md:text-[14px] font-semibold font-inter tracking-[0.02em] text-center text-primary uppercase">
               How do we help
             </p>
           </motion.div>
@@ -131,9 +131,9 @@ export default function HowDoWeHelp() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-[900px]"
+            className="max-w-[900px] px-4"
           >
-            <h2 className="text-[48px] font-semibold font-inter tracking-[-0.04em] text-center text-[rgb(29,32,38)] leading-[1.2]">
+            <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold font-inter tracking-[-0.04em] text-center text-[rgb(29,32,38)] leading-[1.2]">
               A <span className="text-primary">Unified Platform</span> for Students, Consultants &
               Global Institutions
             </h2>
@@ -141,7 +141,7 @@ export default function HowDoWeHelp() {
         </div>
 
         {/* Cards */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-6 md:gap-8">
           {sections.map((section, index) => (
             <motion.div
               key={index}
@@ -149,13 +149,13 @@ export default function HowDoWeHelp() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="grid lg:grid-cols-2 gap-8 items-center border border-gray-200 rounded-2xl p-8 lg:p-12"
+              className="grid lg:grid-cols-2 gap-6 md:gap-8 items-center border border-gray-200 rounded-2xl p-6 md:p-8 lg:p-12"
             >
               {/* Content */}
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-4 md:gap-6">
                 {/* Badge */}
                 <div className="flex items-center gap-2">
-                  <div className="w-[13px] h-[17px]">
+                  <div className="w-[11px] h-[15px] md:w-[13px] md:h-[17px]">
                     <svg
                       style={{ width: "100%", height: "100%" }}
                       viewBox="0 0 13 17"
@@ -165,7 +165,7 @@ export default function HowDoWeHelp() {
                     </svg>
                   </div>
                   <p
-                    className="text-[12px] font-medium font-inter tracking-[-0.04em] text-center"
+                    className="text-[11px] md:text-[12px] font-medium font-inter tracking-[-0.04em] text-center"
                     style={{ color: section.badge.color }}
                   >
                     {section.badge.text}
@@ -173,20 +173,20 @@ export default function HowDoWeHelp() {
                 </div>
 
                 {/* Title & Description */}
-                <div className="flex flex-col gap-3">
-                  <h3 className="text-[32px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] leading-[1.2]">
+                <div className="flex flex-col gap-2 md:gap-3">
+                  <h3 className="text-[24px] sm:text-[28px] md:text-[32px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] leading-[1.2]">
                     {section.title}
                   </h3>
-                  <p className="text-base font-normal tracking-[-0.04em] leading-[140%] text-[rgb(91,94,99)]">
+                  <p className="text-[14px] md:text-base font-normal tracking-[-0.04em] leading-[140%] text-[rgb(91,94,99)]">
                     {section.description}
                   </p>
                 </div>
 
                 {/* Features */}
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-3 md:gap-4">
                   {section.features.map((feature, fIndex) => (
-                    <div key={fIndex} className="flex gap-3">
-                      <div className="w-[18px] h-[22px] flex-shrink-0">
+                    <div key={fIndex} className="flex gap-2 md:gap-3">
+                      <div className="w-[16px] h-[20px] md:w-[18px] md:h-[22px] flex-shrink-0">
                         <svg
                           style={{ width: "100%", height: "100%" }}
                           viewBox="0 0 18 22"
@@ -196,10 +196,10 @@ export default function HowDoWeHelp() {
                         </svg>
                       </div>
                       <div className="flex flex-col gap-1">
-                        <h4 className="text-base font-semibold font-inter tracking-[-0.04em] leading-[140%] text-[rgb(29,32,38)]">
+                        <h4 className="text-[14px] md:text-base font-semibold font-inter tracking-[-0.04em] leading-[140%] text-[rgb(29,32,38)]">
                           {feature.title}
                         </h4>
-                        <p className="text-base font-normal tracking-[-0.04em] leading-[140%] text-[rgb(91,91,91)]">
+                        <p className="text-[14px] md:text-base font-normal tracking-[-0.04em] leading-[140%] text-[rgb(91,91,91)]">
                           {feature.description}
                         </p>
                       </div>
@@ -212,12 +212,12 @@ export default function HowDoWeHelp() {
                   <Link
                     href={section.cta.href}
                     {...(section.cta.external && { target: "_blank", rel: "noopener" })}
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary border border-primary-light rounded-lg shadow-button hover:bg-primary/90 transition-all"
+                    className="inline-flex items-center gap-2 px-4 sm:px-5 md:px-6 py-2.5 md:py-3 bg-primary border border-primary-light rounded-lg shadow-button hover:bg-primary/90 transition-all"
                   >
-                    <span className="text-white text-[14px] font-semibold font-inter tracking-[-0.04em] leading-[120%]">
+                    <span className="text-white text-[13px] md:text-[14px] font-semibold font-inter tracking-[-0.04em] leading-[120%]">
                       {section.cta.text}
                     </span>
-                    <div className="w-[15px] h-[11px]">
+                    <div className="w-[13px] h-[10px] md:w-[15px] md:h-[11px]">
                       <svg
                         style={{ width: "100%", height: "100%" }}
                         viewBox="0 0 15 11"
@@ -231,7 +231,7 @@ export default function HowDoWeHelp() {
               </div>
 
               {/* Image */}
-              <div className="relative w-full aspect-[1620/1638] rounded-lg overflow-hidden">
+              <div className="relative w-full aspect-[1620/1638] rounded-lg overflow-hidden order-first lg:order-none">
                 <Image
                   src={section.image}
                   alt={section.title}

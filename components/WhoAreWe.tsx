@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function WhoAreWe() {
   return (
-    <section id="who-are-we" className="relative bg-white py-20 px-6">
+    <section id="who-are-we" className="relative bg-white py-12 md:py-16 lg:py-20 px-4 sm:px-6">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex flex-col items-center">
           {/* Section Label */}
@@ -14,9 +14,9 @@ export default function WhoAreWe() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-6"
+            className="mb-4 md:mb-6"
           >
-            <p className="text-[14px] font-semibold font-inter tracking-[0.02em] text-center text-primary uppercase">
+            <p className="text-[12px] md:text-[14px] font-semibold font-inter tracking-[0.02em] text-center text-primary uppercase">
               WHO ARE WE
             </p>
           </motion.div>
@@ -27,13 +27,13 @@ export default function WhoAreWe() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mb-6 max-w-[900px]"
+            className="mb-4 md:mb-6 max-w-[900px]"
           >
             <div className="text-center">
-              <h2 className="text-[48px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] leading-[1.2]">
+              <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] leading-[1.2]">
                 We call ourself the
               </h2>
-              <h2 className="text-[48px] font-semibold font-inter tracking-[-0.04em] text-primary leading-[1.2]">
+              <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-semibold font-inter tracking-[-0.04em] text-primary leading-[1.2]">
                 Shopify for Study Abroad
               </h2>
             </div>
@@ -45,9 +45,9 @@ export default function WhoAreWe() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="mb-12 max-w-[800px]"
+            className="mb-8 md:mb-12 max-w-[800px]"
           >
-            <p className="text-[20px] font-normal tracking-[-0.04em] leading-[140%] text-center text-[rgb(29,32,38)]">
+            <p className="text-[16px] md:text-[18px] lg:text-[20px] font-normal tracking-[-0.04em] leading-[140%] text-center text-[rgb(29,32,38)]">
               ForeignAdmits bridges students, study abroad consultants, and global service providers. We simplify everything — from admissions to getting a flight ticket — through one powerful, digital ecosystem.
             </p>
           </motion.div>

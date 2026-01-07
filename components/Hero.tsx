@@ -32,7 +32,7 @@ const stats = [
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white py-20">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white py-12 md:py-20">
       {/* Background Grid */}
       <div className="absolute inset-0 w-full h-full pointer-events-none">
         <svg
@@ -45,21 +45,21 @@ export default function Hero() {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-[1200px] mx-auto px-6">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="flex flex-col items-center">
           {/* Hero Text */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-6"
+            className="text-center mb-4 md:mb-6"
           >
             {/* Title Container */}
             <div className="flex flex-col items-center gap-0">
               {/* Line 1: "One Platform," */}
               <div className="inline-block">
                 <h1
-                  className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-center leading-[1.1]"
+                  className="text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] font-semibold font-inter tracking-[-0.04em] text-center leading-[1.1]"
                   style={{
                     background: "linear-gradient(0deg, rgb(0, 141, 234) 0%, rgb(48, 172, 255) 100%)",
                     WebkitBackgroundClip: "text",
@@ -73,7 +73,7 @@ export default function Hero() {
 
               {/* Line 2: "for Students" */}
               <div className="inline-block">
-                <h1 className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] text-center leading-[1.1]">
+                <h1 className="text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] text-center leading-[1.1]">
                   for Students Abroad.
                 </h1>
               </div>
@@ -85,9 +85,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-center mb-12 max-w-[800px]"
+            className="text-center mb-8 md:mb-12 max-w-[800px] px-4"
           >
-            <p className="text-[20px] font-normal tracking-[-0.04em] leading-[140%] text-[rgb(29,32,38)] text-center">
+            <p className="text-[16px] md:text-[18px] lg:text-[20px] font-normal tracking-[-0.04em] leading-[140%] text-[rgb(29,32,38)] text-center">
               Empower your business and students with AI-driven tools, seamless applications, and trusted global partnerships.
             </p>
           </motion.div>
@@ -97,7 +97,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-wrap justify-center gap-8 mb-12"
+            className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 mb-8 md:mb-12"
           >
             {stats.map((stat, index) => (
               <motion.div
@@ -105,10 +105,10 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
-                className="flex items-center gap-4"
+                className="flex items-center gap-2 sm:gap-3 md:gap-4"
               >
                 {/* Left SVG */}
-                <div className="w-[53px] h-[81px] flex-shrink-0">
+                <div className="w-[30px] h-[45px] sm:w-[40px] sm:h-[60px] md:w-[53px] md:h-[81px] flex-shrink-0">
                   <svg
                     style={{ width: "100%", height: "100%" }}
                     viewBox="0 0 53 81"
@@ -122,16 +122,16 @@ export default function Hero() {
 
                 {/* Stat Content */}
                 <div className="flex flex-col">
-                  <div className="text-[24px] font-bold font-inter tracking-[-0.06em] leading-[120%] text-primary">
+                  <div className="text-[18px] sm:text-[20px] md:text-[24px] font-bold font-inter tracking-[-0.06em] leading-[120%] text-primary">
                     {stat.number}
                   </div>
-                  <div className="text-[14px] font-medium font-inter tracking-[-0.04em] leading-[120%] text-[rgb(57,57,57)]">
+                  <div className="text-[12px] sm:text-[13px] md:text-[14px] font-medium font-inter tracking-[-0.04em] leading-[120%] text-[rgb(57,57,57)]">
                     {stat.label}
                   </div>
                 </div>
 
                 {/* Right SVG */}
-                <div className="w-[53px] h-[81px] flex-shrink-0">
+                <div className="w-[30px] h-[45px] sm:w-[40px] sm:h-[60px] md:w-[53px] md:h-[81px] flex-shrink-0">
                   <svg
                     style={{ width: "100%", height: "100%" }}
                     viewBox="0 0 53 81"
@@ -154,12 +154,12 @@ export default function Hero() {
           >
             <Link
               href="./partner-with-us"
-              className="inline-flex items-center gap-3 px-6 py-4 bg-primary border border-primary-light rounded-lg shadow-button hover:bg-primary/90 transition-all"
+              className="inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-5 md:px-6 py-3 md:py-4 bg-primary border border-primary-light rounded-lg shadow-button hover:bg-primary/90 transition-all"
             >
-              <span className="text-white text-[16px] font-semibold font-inter tracking-[-0.04em] leading-[120%]">
+              <span className="text-white text-[14px] sm:text-[15px] md:text-[16px] font-semibold font-inter tracking-[-0.04em] leading-[120%]">
                 Become a Partner
               </span>
-              <div className="w-[17px] h-[12px]">
+              <div className="w-[15px] h-[11px] sm:w-[17px] sm:h-[12px]">
                 <svg
                   viewBox="0 0 16.76 12.29"
                   className="w-full h-full"

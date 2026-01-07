@@ -138,15 +138,15 @@ function VideoTestimonialCard({ videoUrl, name }: { videoUrl: string; name: stri
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-white" id="testimonials">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-12 md:py-16 lg:py-20 bg-white" id="testimonials">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="flex items-start justify-between mb-12">
-          <div className="text-center flex-1">
-            <p className="text-sm font-semibold uppercase tracking-[0.02em] text-primary mb-4" style={{ fontFamily: 'var(--font-inter)' }}>
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between mb-8 md:mb-12 gap-4">
+          <div className="text-center lg:text-left flex-1">
+            <p className="text-[12px] md:text-sm font-semibold uppercase tracking-[0.02em] text-primary mb-3 md:mb-4" style={{ fontFamily: 'var(--font-inter)' }}>
               TESTIMONIALS
             </p>
-            <h2 className="text-[48px] font-semibold leading-tight tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
+            <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-semibold leading-tight tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
               <span className="text-text-primary">What Our </span>
               <span className="text-primary">Students &amp; Partners</span>
               <span className="text-text-primary"> Say</span>
@@ -158,18 +158,18 @@ export default function Testimonials() {
             href="https://www.google.com/search?sca_esv=7f913f0ee5b6aad4&sxsrf=AE3TifMgH-HAECgmmURHQaFZhQ8yPXyyUQ:1750081149606&kgmid=/g/11g_tpkzzb&q=ForeignAdmits&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=4d4c775578dd0d2d#mpd=~3817447718833781832/customers/reviews"
             target="_blank"
             rel="noopener"
-            className="flex items-center gap-3 px-6 py-3 rounded-xl border border-border-light hover:border-primary transition-colors bg-white"
+            className="flex items-center gap-2 md:gap-3 px-4 md:px-6 py-2.5 md:py-3 rounded-xl border border-border-light hover:border-primary transition-colors bg-white"
             style={{ boxShadow: 'rgba(29, 32, 38, 0.08) 0px 0px 4px 0px' }}
           >
             <img
               src="https://framerusercontent.com/images/bsHlevp48s3wStPjGGQDCLk3e0M.png"
               alt="Google"
-              className="w-6 h-6"
+              className="w-5 h-5 md:w-6 md:h-6"
             />
-            <span className="text-sm font-semibold leading-[120%] tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
-              View all Reviews on Google
+            <span className="text-[12px] md:text-sm font-semibold leading-[120%] tracking-[-0.04em]" style={{ fontFamily: 'var(--font-inter)' }}>
+              View all Reviews
             </span>
-            <svg width="15" height="11" viewBox="0 0 15 11" fill="none">
+            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" className="hidden sm:block">
               <use href="https://www.foreignadmits.com/#svg-196766070_279" />
             </svg>
           </Link>
