@@ -1,0 +1,614 @@
+[00:00:00.797] Server  LOG     ✓ Ready in 529ms
+[00:00:04.221] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.221] Browser WARN    Image with src "https://framerusercontent.com/images/lFfiEZXQ90gOCETZQUlsnugpmJo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.614] Browser WARN    Image with src "https://framerusercontent.com/images/lFfiEZXQ90gOCETZQUlsnugpmJo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:00.083] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.084] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.085] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.086] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.087] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.088] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.089] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.089] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.090] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.091] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.092] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.092] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.093] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.094] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.095] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.096] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.097] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.097] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.098] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.099] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.100] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.101] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.104] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.106] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.107] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.108] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.109] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.110] Server  ERROR   ⨯ ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:00.120] Server  LOG     ✓ Compiled in 23ms
+[00:03:01.076] Browser ERROR   ./components/Header.tsx:7:1
+Module not found: Can't resolve './ServicesDropdown'
+   5 | import { useState } from "react";
+   6 | import { ChevronDownIcon, LoginIcon, ArrowRightIcon } from "./Icons";
+>  7 | import ServicesDropdown from "./ServicesDropdown";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Header() {
+  10 |   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:32.973] Server  LOG     ✓ Compiled in 582ms
+[00:05:44.885] Server  LOG     ✓ Compiled in 35ms
+[00:05:59.354] Server  LOG     ✓ Compiled in 21ms
+[00:06:29.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:43.233] Server  LOG     ✓ Compiled in 33ms
+[00:09:47.200] Server  LOG     ✓ Compiled in 90ms
+[00:12:00.034] Server  LOG     ✓ Compiled in 226ms
+[00:12:46.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:47.051] Browser WARN    Image with src "https://framerusercontent.com/images/lFfiEZXQ90gOCETZQUlsnugpmJo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:41.410] Server  LOG     ✓ Compiled in 195ms
+[00:13:46.074] Browser WARN    Image with src "https://framerusercontent.com/images/s0D1GGuOP2Vk4LCXFDa07dJZuA.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:16:13.777] Server  LOG     ✓ Compiled in 192ms
+[00:16:18.258] Server  LOG     ✓ Compiled in 330ms
+[00:19:58.800] Server  LOG     ✓ Compiled in 28ms
+[00:20:09.360] Server  LOG     ✓ Compiled in 79ms
+[00:21:49.757] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:21:51.717] Server  WARN    Image with src "https://framerusercontent.com/images/s0D1GGuOP2Vk4LCXFDa07dJZuA.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:21:51.970] Server  LOG     ✓ Compiled in 370ms
+[00:21:52.000] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:52.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:52.499] Browser WARN    Image with src "https://framerusercontent.com/images/s0D1GGuOP2Vk4LCXFDa07dJZuA.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:21:52.499] Browser WARN    Image with src "https://framerusercontent.com/images/lFfiEZXQ90gOCETZQUlsnugpmJo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:49.725] Server  LOG     ✓ Compiled in 201ms
+[00:27:59.572] Server  LOG     ✓ Compiled in 123ms
+[00:34:57.828] Server  LOG     ✓ Compiled in 34ms
+[00:35:31.535] Server  LOG     ✓ Compiled in 102ms
+[00:36:39.870] Server  LOG     ✓ Compiled in 130ms
