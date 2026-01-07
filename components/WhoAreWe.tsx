@@ -67,7 +67,6 @@ export default function WhoAreWe() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 958px"
-                quality={90}
               />
             </div>
           </motion.div>

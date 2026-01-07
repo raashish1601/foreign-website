@@ -67,51 +67,14 @@ export default function Hero() {
                     backgroundClip: "text",
                   }}
                 >
-                  One Platform,
+                  One Platform, Endless Possibilities
                 </h1>
               </div>
 
-              {/* Line 2: "Endless" */}
-              <div className="inline-block">
-                <h1
-                  className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-center leading-[1.1]"
-                  style={{
-                    background: "linear-gradient(0deg, rgb(0, 141, 234) 0%, rgb(48, 172, 255) 100%)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    backgroundClip: "text",
-                  }}
-                >
-                  Endless
-                </h1>
-              </div>
-
-              {/* Line 3: "Possibilities" */}
-              <div className="inline-block">
-                <h1
-                  className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-center leading-[1.1]"
-                  style={{
-                    background: "linear-gradient(0deg, rgb(0, 141, 234) 0%, rgb(48, 172, 255) 100%)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    backgroundClip: "text",
-                  }}
-                >
-                  Possibilities
-                </h1>
-              </div>
-
-              {/* Line 4: "for Students" */}
+              {/* Line 2: "for Students" */}
               <div className="inline-block">
                 <h1 className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] text-center leading-[1.1]">
-                  for Students
-                </h1>
-              </div>
-
-              {/* Line 5: "Abroad." */}
-              <div className="inline-block">
-                <h1 className="text-[64px] font-semibold font-inter tracking-[-0.04em] text-[rgb(29,32,38)] text-center leading-[1.1]">
-                  Abroad.
+                  for Students Abroad.
                 </h1>
               </div>
             </div>
